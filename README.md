@@ -25,17 +25,30 @@ edits never leave your machine.
 
 ## Installing on macOS
 
-These builds are **not notarized by Apple yet**, so macOS will refuse to open
-the app on first launch. To get past it:
+These builds are **not yet notarised by Apple**, so macOS will refuse to open Lux
+until you clear the quarantine flag it puts on downloaded apps. This takes one
+command in Terminal, and you only need it once per install.
+
+**1.** Drag **Lux.app** into your **Applications** folder.
+
+**2.** Open the **Terminal** app. Press `⌘ Space`, type `Terminal`, press `Return`.
+
+**3.** Copy the line below, paste it into the Terminal window, and press `Return`:
 
 ```sh
 xattr -dr com.apple.quarantine /Applications/Lux.app
 ```
 
-Or right-click the app and choose *Open* — on recent macOS you may also need
-*System Settings -> Privacy & Security -> Open Anyway*.
+**4.** Nothing is printed if it worked. Close Terminal and open Lux normally.
 
-This will stop being necessary once the app is signed and notarized.
+Do this again after installing an update. If you skip it, macOS will say Lux is
+damaged or from an unidentified developer — the app is fine, it simply has not been
+signed yet. Signing will remove this step entirely.
+
+## Installing on Windows
+
+The installer is not yet code-signed, so SmartScreen will show a blue warning.
+Choose **More info**, then **Run anyway**.
 
 ## Getting started
 
