@@ -24,7 +24,7 @@ https://github.com/xuebinqin/DIS
 Interface icon set  
 https://github.com/Richard9394/MingCute
 
-> Only the icons the app displays are bundled. One derivative is included: a three-line drag grip adapted from align-justify-line.
+> Only the icons the app displays are bundled. Two derivatives are included: the Lux logo and app icon, adapted from brightness-line, and a three-line drag grip adapted from align-justify-line.
 
 ## ISC
 
@@ -80,6 +80,22 @@ https://vitejs.dev
 
 In-app updates  
 https://github.com/electron-userland/electron-builder
+
+## OFL-1.1
+
+### Inter
+
+Interface typeface (controls, sliders, file names)  
+https://github.com/rsms/inter
+
+> Copyright 2020 The Inter Project Authors. Designed by Rasmus Andersson. Bundled unmodified; the SIL Open Font License permits this in commercial software, and forbids selling the font on its own.
+
+### EB Garamond
+
+Display typeface (headings and buttons)  
+https://github.com/octaviopardo/EBGaramond12
+
+> Copyright 2017 The EB Garamond Project Authors. Designed by Georg Duffner and Octavio Pardo, after Claude Garamont. Bundled unmodified; the SIL Open Font License permits this in commercial software, and forbids selling the font on its own.
 
 ---
 
