@@ -8,13 +8,20 @@ code — Lux is closed-source commercial software.
 
 ## This is a private beta
 
-Downloads here require a **license key**, and keys are issued individually. If
-you have not been given one, the app will not open. Keys are not for sale yet
-and are not transferable.
+Downloads here require a **license code** — something like
+`LUX-4K7M-9PQR-2XVB` — and codes are issued individually. If you have not been
+given one, the app will not open. Codes are not for sale yet and are not
+transferable.
 
 If you were invited: grab the newest installer from
-[Releases](../../releases/latest) and paste the key you were sent when the app
-first launches. You only do this once per computer.
+[Releases](../../releases/latest) and type your code when the app first
+launches. Your code works on two computers, and Lux needs to be online just for
+that first moment on each one — after that it runs entirely offline. If you
+change computers, the app lists the ones you are using and lets you release one.
+
+Activating sends your code, an anonymous ID for the computer, its name, platform
+and the app version — enough to count computers, nothing more. Your photos and
+edits never leave your machine.
 
 ## Installing on macOS
 
@@ -47,7 +54,9 @@ filtering by any of those. Right-click any photo for the same actions.
 non-destructive — your original file is never modified, and every edit lives in
 the catalog and can be undone or reset at any time.
 
-**4. Export.** JPEG or PNG, with quality and size controls, one photo or a batch.
+**4. Export.** JPEG or PNG, with quality and size controls. Choose the
+destination folder first, then export. Select several photos with `⌘` or
+`⇧` in the Library and they are all written out in one go.
 
 ## The three tabs
 
@@ -119,6 +128,8 @@ Your catalog lives in `~/Documents/Lux`.
 | `O` | Toggle mask overlay |
 | `Z` | Toggle fit / 100% zoom |
 | `+` / `-` | Zoom in / out a stop |
+| `⌘+` / `⌘-` | Zoom in / out a stop |
+| `⌘[` / `⌘]` | Rotate 90° left / right |
 | `\` | Before / after (hold) |
 | `Enter` | Finish cropping |
 | `Esc` | Leave crop, deselect mask, or zoom to fit |
@@ -151,9 +162,13 @@ While making a selection, hold `⇧` to add and `⌥` to subtract.
 
 ## Updates
 
-Lux checks for new versions on its own and will tell you when one is out. On
-macOS it cannot install updates for you yet (that also needs code signing), so
-it will point you back here to download the new version. Windows updates itself.
+Lux checks for new versions on its own and tells you when one is out. It never
+downloads or installs anything without asking.
+
+On Windows, choose **Download** and Lux fetches the update, then asks whether to
+restart into it now or install it the next time you quit. On macOS it cannot
+install updates for you yet (that needs code signing), so **Open download** brings
+you back here for the new version; drag it into Applications and choose Replace.
 
 ## Reporting problems
 
