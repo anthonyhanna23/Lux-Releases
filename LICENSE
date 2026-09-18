@@ -35,8 +35,18 @@ or use it.
 
 5. YOUR PHOTOGRAPHS AND DATA
    You retain all rights in the photographs and other content you open, edit or
-   export with the Software. The Software runs entirely on your own computer and
-   does not upload your images.
+   export with the Software. Your images are processed entirely on your own
+   computer and are never uploaded.
+
+   The Software contacts the developer's licensing service when you first
+   activate your code on a computer, and about once a month afterwards, to
+   enforce the limit on how many computers one code may be used on. Those
+   requests carry your licence code, an anonymous identifier derived from the
+   computer, the computer's name, its operating system and the version of the
+   Software. No account, email address, image, or information about your editing
+   is collected. If that service cannot be reached, the Software keeps working.
+   The Software also checks for updates, and downloads an image-segmentation
+   model the first time you use AI masking, if you agree to it.
 
    The Software links to your original files by their location on disk and is
    designed not to modify them. Even so, this is pre-release software operating
