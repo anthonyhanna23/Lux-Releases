@@ -25,25 +25,14 @@ edits never leave your machine.
 
 ## Installing on macOS
 
-These builds are **not yet notarised by Apple**, so macOS will refuse to open Lux
-until you clear the quarantine flag it puts on downloaded apps. This takes one
-command in Terminal, and you only need it once per install.
+Open the disk image and drag **Lux.app** into your **Applications** folder. Lux
+is signed and notarised by Apple, so it opens like any other app. From then on it
+offers each update when you launch it and installs it for you.
 
-**1.** Drag **Lux.app** into your **Applications** folder.
-
-**2.** Open the **Terminal** app. Press `⌘ Space`, type `Terminal`, press `Return`.
-
-**3.** Copy the line below, paste it into the Terminal window, and press `Return`:
-
-```sh
-xattr -dr com.apple.quarantine /Applications/Lux.app
-```
-
-**4.** Nothing is printed if it worked. Close Terminal and open Lux normally.
-
-Do this again after installing an update. If you skip it, macOS will say Lux is
-damaged or from an unidentified developer — the app is fine, it simply has not been
-signed yet. Signing will remove this step entirely.
+**Coming from 0.3.0 or earlier?** Those builds were not yet signed, so they
+cannot install a signed update by themselves. Download the newest installer once
+by hand and replace the old Lux in Applications; your catalog and edits stay as
+they are. Every update after that installs itself.
 
 ## Installing on Windows
 
@@ -140,14 +129,15 @@ Your catalog lives in `~/Documents/Lux`.
 | `R` | Crop tool |
 | `O` | Toggle mask overlay |
 | `Z` | Toggle fit / 100% zoom |
-| `+` / `-` | Zoom in / out a stop |
-| `⌘+` / `⌘-` | Zoom in / out a stop |
+| `+` / `-` | Zoom in / out a step |
+| `⌘+` / `⌘-` | Zoom in / out a step |
 | `⌘[` / `⌘]` | Rotate 90° left / right |
 | `\` | Before / after (hold) |
 | `Enter` | Finish cropping |
 | `Esc` | Leave crop, deselect mask, or zoom to fit |
 | `⌘Z` / `⇧⌘Z` | Undo / redo |
-| `⇧⌘C` / `⇧⌘V` | Copy / paste Develop settings |
+| `⇧⌘C` | Choose which Develop settings to copy (`Return` copies) |
+| `⌘V` | Paste Develop settings |
 | `⌘A` | Select all photos |
 | `Delete` | Remove selected from the catalog (asks first) |
 
