@@ -13,12 +13,6 @@ Downloads here require a **license code** — something like
 given one, the app will not open. Codes are not for sale yet and are not
 transferable.
 
-If you were invited, download the newest version:
-
-- **[Mac with Apple Silicon (M1, M2, M3, M4)](https://github.com/anthonyhanna23/Lux-Releases/releases/latest/download/Lux-Mac-arm64.dmg)**
-- **[Mac with Intel](https://github.com/anthonyhanna23/Lux-Releases/releases/latest/download/Lux-Mac-x64.dmg)**
-- **[Windows](https://github.com/anthonyhanna23/Lux-Releases/releases/latest/download/Lux-Windows-Setup.exe)**
-
 Then type your code when the app first launches. Your code works on two computers, and Lux needs to be online just for
 that first moment on each one — after that it runs entirely offline. If you
 change computers, the app lists the ones you are using and lets you release one.
