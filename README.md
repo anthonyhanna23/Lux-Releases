@@ -13,7 +13,8 @@ Downloads here require a **license code** — something like
 given one, the app will not open. Codes are not for sale yet and are not
 transferable.
 
-Then type your code when the app first launches. Your code works on two computers, and Lux needs to be online just for
+If you were invited, the newest version is on the [Releases](../../releases)
+page. Type your code when the app first launches. Your code works on two computers, and Lux needs to be online just for
 that first moment on each one — after that it runs entirely offline. If you
 change computers, the app lists the ones you are using and lets you release one.
 
@@ -34,8 +35,8 @@ they are. Every update after that installs itself.
 
 ## Installing on Windows
 
-The installer is not yet code-signed, so SmartScreen will show a blue warning.
-Choose **More info**, then **Run anyway**.
+The Windows installer is not yet code-signed, so Windows may show a warning the
+first time you run it.
 
 ## Getting started
 
@@ -166,10 +167,8 @@ While making a selection, hold `⇧` to add and `⌥` to subtract.
 Lux checks for new versions on its own and tells you when one is out. It never
 downloads or installs anything without asking.
 
-On Windows, choose **Download** and Lux fetches the update, then asks whether to
-restart into it now or install it the next time you quit. On macOS it cannot
-install updates for you yet (that needs code signing), so **Open download** brings
-you back here for the new version; drag it into Applications and choose Replace.
+Choose **Download** and Lux fetches the update, then asks whether to restart into
+it now or install it the next time you quit.
 
 ## Reporting problems
 
