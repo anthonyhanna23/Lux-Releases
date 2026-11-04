@@ -18,9 +18,10 @@ page. Type your code when the app first launches. Your code works on two compute
 that first moment on each one — after that it runs entirely offline. If you
 change computers, the app lists the ones you are using and lets you release one.
 
-Activating sends your code, an anonymous ID for the computer, its name, platform
-and the app version — enough to count computers, nothing more. Your photos and
-edits never leave your machine.
+Activating sends your code, a scrambled ID for the computer, its name, platform
+and the app version: enough to enforce the two-computer limit and to see how the
+beta is going. Your photos and edits never leave your machine. The details are
+in the [privacy policy](https://luxphotoeditor.com/privacy).
 
 ## Installing on macOS
 

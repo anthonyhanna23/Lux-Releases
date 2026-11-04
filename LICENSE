@@ -39,12 +39,18 @@ or use it.
    computer and are never uploaded.
 
    The Software contacts the developer's licensing service when you first
-   activate your code on a computer, and about once a month afterwards, to
-   enforce the limit on how many computers one code may be used on. Those
-   requests carry your licence code, an anonymous identifier derived from the
-   computer, the computer's name, its operating system and the version of the
-   Software. No account, email address, image, or information about your editing
-   is collected. If that service cannot be reached, the Software keeps working.
+   activate your code on a computer, and about once a month afterwards. On
+   activation it sends your licence code, an identifier derived from the
+   computer's hardware ID (hashed, so the hardware ID itself is never sent), the
+   computer's name, its operating system and the version of the Software; the
+   monthly check sends only the code and that identifier. This information is
+   used to enforce the limit on how many computers one code may be used on, and
+   to count how many computers, and which operating systems and versions of the
+   Software, the beta is used on. It is linked to the name and email address
+   you gave when you signed up. No image or information about your editing is
+   collected. If that service cannot be reached, the Software keeps working.
+   The privacy policy at https://luxphotoeditor.com/privacy describes all of
+   this in full, including how to have your information deleted.
    The Software also checks for updates, and downloads an image-segmentation
    model the first time you use AI masking, if you agree to it.
 
